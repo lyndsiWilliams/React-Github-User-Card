@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-import UserCard from './UserCard';
+import FollowerCard from './FollowerCard';
 
 class Followers extends React.Component {
   state = { followers: [] };
@@ -27,7 +27,7 @@ class Followers extends React.Component {
     return (
       followers.map((follower, index) => {
         return(
-          <UserCard key={index} user={follower} />
+          <FollowerCard key={index} user={follower} />
         );
       })
     );

@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <h1>Github user card project</h1>
       <Profile />
-      <Followers />
+      <div className="follower-card-cont">
+        <Followers />
+      </div>
     </div>
   );
 }

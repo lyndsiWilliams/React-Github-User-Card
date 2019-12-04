@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: black;
+  background-color: darkred;
 }
 
 .App-logo {
@@ -19,4 +21,17 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.user-card {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+
+.follower-card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
