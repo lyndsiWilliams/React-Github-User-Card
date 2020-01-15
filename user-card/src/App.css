@@ -1,7 +1,11 @@
+body {
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo);
+}
+
 .App {
   text-align: center;
   color: black;
-  background-color: darkred;
+  /* background-color: darkred; */
 }
 
 .App-logo {
