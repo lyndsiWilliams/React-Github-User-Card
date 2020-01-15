@@ -14,7 +14,7 @@ const FollowerCard = (props) => {
 
   return (
     <div className="follower-card">
-      <Card inverse style={{ backgroundColor: "forestgreen", margin: "2%"}}>
+      <Card inverse style={{ backgroundColor: "rgb(46, 46, 46)", margin: "2%"}}>
         <CardImg top width="100%" src={avatar_url} alt="Lyndsi's follower's face" />
         <CardBody>
           <CardTitle>Login: {login}</CardTitle>

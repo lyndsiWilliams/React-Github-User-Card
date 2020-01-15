@@ -18,7 +18,7 @@ const UserCard = (props) => {
 
   return (
     <div className="user-card">
-      <Card inverse style={{ backgroundColor: "forestgreen", width: "50%" }}>
+      <Card inverse style={{ backgroundColor: "rgb(46, 46, 46)", width: "50%" }}>
         <CardImg top width="100%" src={avatar_url} alt="Lyndsi's face" />
         <CardBody>
           <CardTitle>Name: {name}</CardTitle>
